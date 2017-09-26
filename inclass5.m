@@ -1,3 +1,5 @@
+% AW. See comment below. 0.8/1. 
+
 %Inclass assignment 5. 
 
 % 1. (a) Write a function that reads in an image and displays it so that 1%
@@ -25,6 +27,8 @@ onep()
 %then the fraction (between 0-1)
 %ej. 'inclass5.jpeg', 'fraction'
 
+%AW: This doesn't work correctly. It will decrease rather than increase contrast as x is increased. 
+% -0.2. 
 function [ J2 ] = fifty( img1, x )
 img=imread(img1);
 imshow(img);
